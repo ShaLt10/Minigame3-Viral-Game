@@ -92,7 +92,6 @@
     <Compile Include="Assets\Pixel Crushers\Dialogue System\Third Party Support\TopDown Engine Support\Scripts\DialogueSystemTopDownEventListener.cs" />
     <Compile Include="Assets\FunkyCode\SmartUtilities2D\Scripts\UI\UITextScale.cs" />
     <Compile Include="Assets\Scripts\AvoidPlayer.cs" />
-    <Compile Include="Assets\Scripts\StudyRoomScripts\UIDebugHelper.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Components\Lightmap\LightTexture2D.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Day\Shadow\SpriteRendererShadow.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Event Handling\Object.cs" />
@@ -119,6 +118,7 @@
     <Compile Include="Assets\Scripts\Core\BushScript.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Light\ShadowEngine\Algorithm\SpriteProjection.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Settings\Presets\EventPresets.cs" />
+    <Compile Include="Assets\MinigameAudioManager.cs" />
     <Compile Include="Assets\Scripts\UI\InstagramComparison.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Light\ShadowEngine\Extensions\TilemapCollider.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Light\ShadowEngine\Algorithm\SoftDefault.cs" />
@@ -166,7 +166,6 @@
     <Compile Include="Assets\Scripts\StudyRoomScripts\TrackingBar.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\SuperTilemapEditor\Rendering\Light\Mask\SpriteRenderer2D.cs" />
     <Compile Include="Assets\Scripts\Interact.cs" />
-    <Compile Include="Assets\Scripts\StudyRoomScripts\DragItem.cs" />
     <Compile Include="Assets\Scripts\Core\AudioManager.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Day\Sorting\SortDepth.cs" />
     <Compile Include="Assets\Scripts\PlayerInteract.cs" />
@@ -202,7 +201,7 @@
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Lightmap\Pass.cs" />
     <Compile Include="Assets\Scripts\Eventdata\InstagramFeed\GetQuestion.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\LightShapes\Extensions\CompositeCollider2DShape.cs" />
-    <Compile Include="Assets\Scripts\UI\MinigameUI.cs" />
+    <Compile Include="Assets\DropZoneScript.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Misc\MeshObject.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Lightmap\Objects\TilemapRoom.cs" />
     <Compile Include="Assets\Scripts\DialogueInteraction.cs" />
@@ -247,14 +246,12 @@
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Components\Event Handling\LightEventListener.cs" />
     <Compile Include="Assets\FunkyCode\SmartUtilities2D\Scripts\Graphics\Max2DMesh.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Components\Occlusion\LightTilemapOcclusion2D.cs" />
-    <Compile Include="Assets\Minigames\MinigameManager.cs" />
     <Compile Include="Assets\FunkyCode\SmartUtilities2D\Scripts\Utilities\2D\Vector2D.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Material\Lighting2DMaterials.cs" />
     <Compile Include="Assets\Scripts\Eventdata\DialogueSendData.cs" />
     <Compile Include="Assets\FunkyCode\SmartUtilities2D\Scripts\Utilities\2D\Math2D.cs" />
     <Compile Include="Assets\FunkyCode\SmartUtilities2D\Scripts\Triangulation\Advanced Triangulator\TriangulationWrapper.cs" />
     <Compile Include="Assets\Scripts\Eventdata\DifferenceSpottedData.cs" />
-    <Compile Include="Assets\Scripts\StudyRoomScripts\DropZone.cs" />
     <Compile Include="Assets\FunkyCode\SmartUtilities2D\Scripts\Utilities\2\Polygon2\Polygon2ListCollider2D.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Day\Main.cs" />
     <Compile Include="Assets\FunkyCode\SmartUtilities2D\Scripts\Triangulation\Advanced Triangulator\TriangulationAlgorithmUtility.cs" />
@@ -280,6 +277,7 @@
     <Compile Include="Assets\Scripts\SceneManager\Destroy\SpotTheDifferenceSingleton.cs" />
     <Compile Include="Assets\Scripts\GrowUntilOnScreen.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Components\Light2D\LightFreeForm.cs" />
+    <Compile Include="Assets\DragItemScript.cs" />
     <Compile Include="Assets\Scripts\ScriptableObject\CharacterSelected.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Components\DayLightCollider2D\DayLightColliderShape.cs" />
     <Compile Include="Assets\Scripts\SceneManager\DontDestroy\ScreenRotateControl.cs" />
@@ -291,6 +289,7 @@
     <Compile Include="Assets\Scripts\Core\PlayAnimation.cs" />
     <Compile Include="Assets\Pixel Crushers\Common\Third Party Support\TopDown Engine Support\Scripts\OnDeathEvent.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Components\LightTilemap2D\Types\Isometric.cs" />
+    <Compile Include="Assets\UIDialogueBoxController.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Scriptable\LightSprite2D.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Lightmap\Objects\Room.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Event Handling\Base.cs" />
@@ -332,6 +331,7 @@
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Components\Camera\CameraTransform.cs" />
     <Compile Include="Assets\FunkyCode\SmartUtilities2D\Scripts\Utilities\2D\Polygon\Polygon2DCollider2D.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Light\Mask\Mesh.cs" />
+    <Compile Include="Assets\Scripts\StudyRoomScripts\MinigameManager.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\Rendering\Buffers\LightMainBuffer.cs" />
     <Compile Include="Assets\FunkyCode\Demos - SmartLighting2D\Demos - Intermediate\1 - Demo Dungeon\Scripts\DungeonPlayerController.cs" />
     <Compile Include="Assets\FunkyCode\SmartLighting2D\Scripts\LightShapes\LightShape.cs" />
@@ -760,12 +760,12 @@
       <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Plugins\DOTween\DOTween.dll</HintPath>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+      <HintPath>Library\PackageCache\com.unity.visualscripting@1.9.4\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
